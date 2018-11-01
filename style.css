@@ -1,0 +1,21 @@
+html {
+    box-sizing: border-box;
+}
+*, *::before, *::after {
+    box-sizing: inherit;
+}
+
+div {
+    background: pink;
+    width: 50%;
+    height: 50%;
+    margin: 100px auto;
+    padding: 30px;
+    text-align: center;
+    border-radius: 6px;
+}
+
+p {
+    font-family: 'Ubuntu Mono', monospace;
+    font-size: 20px;  
+}
